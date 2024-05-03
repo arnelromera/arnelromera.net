@@ -1,0 +1,82 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    max-width: 1150px;
+} */
+
+header {
+    width: 100%;
+    border: 1px solid #000;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 90px 20px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: grey;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    margin-top: -20px;
+}
+.navigation {
+    margin-left: auto;
+}
+.navigation ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.navigation li{
+    padding-right: 50px;
+}
+section.main {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+.home_content {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap if necessary */
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.home_details {
+    flex: 0 0 calc(60% - 10px); /* Take up 60% of the available space, with a bit of margin */
+    margin-right: 10px; /* Margin between home_details and avatar */
+}
+
+.avatar {
+    flex: 0 0 calc(40% - 10px); /* Take up 40% of the available space, with a bit of margin */
+    margin-left: 10px; /* Margin between home_details and avatar */
+}
+.avatar img{
+    border-radius: 150px;
+}
