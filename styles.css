@@ -11,14 +11,12 @@
 
 header {
     width: 100%;
-    border: 1px solid #000;
     max-width: 1150px;
     margin: 0 auto;
     padding: 90px 20px 20px;
     display: flex;
     align-items: center;
     position: relative;
-    background-color: grey;
 }
 h1 {
     display: block;
